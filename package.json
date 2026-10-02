@@ -1,0 +1,17 @@
+{
+  "name": "driverless-taxi-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal simulated driverless taxi MQTT publisher",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node dashboard-server.js",
+    "report:docx": "node generate-project-report-docx.js",
+    "report:pdf": "swift generate-project-report-pdf.swift"
+  },
+  "dependencies": {
+    "docx": "^9.7.2",
+    "mqtt": "^5.14.1"
+  }
+}
